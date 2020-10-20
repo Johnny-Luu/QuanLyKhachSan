@@ -21,5 +21,12 @@ namespace QuanLyKhachSan
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ThongTinKhachHang thongtinkhachhang_form = new ThongTinKhachHang();
+            thongtinkhachhang_form.Show();
+            this.Hide();
+        }
     }
 }

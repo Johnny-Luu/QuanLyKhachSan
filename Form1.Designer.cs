@@ -42,12 +42,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("San Francisco Display Med", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label1.Location = new System.Drawing.Point(146, 78);
+            this.label1.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label1.Location = new System.Drawing.Point(55, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 33);
+            this.label1.Size = new System.Drawing.Size(286, 33);
             this.label1.TabIndex = 0;
-            this.label1.Text = "HOTEL";
+            this.label1.Text = "KHÁCH SẠN TÌNH YÊU";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // username
@@ -62,10 +62,10 @@
             this.username.HintText = "";
             this.username.isPassword = false;
             this.username.LineFocusedColor = System.Drawing.Color.Blue;
-            this.username.LineIdleColor = System.Drawing.Color.Gray;
+            this.username.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(73)))), ((int)(((byte)(171)))));
             this.username.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.username.LineThickness = 3;
-            this.username.Location = new System.Drawing.Point(13, 184);
+            this.username.Location = new System.Drawing.Point(22, 183);
             this.username.Margin = new System.Windows.Forms.Padding(4);
             this.username.MaxLength = 32767;
             this.username.Name = "username";
@@ -86,10 +86,10 @@
             this.password.HintText = "";
             this.password.isPassword = false;
             this.password.LineFocusedColor = System.Drawing.Color.Blue;
-            this.password.LineIdleColor = System.Drawing.Color.Gray;
+            this.password.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(73)))), ((int)(((byte)(171)))));
             this.password.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.password.LineThickness = 3;
-            this.password.Location = new System.Drawing.Point(13, 260);
+            this.password.Location = new System.Drawing.Point(22, 259);
             this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.MaxLength = 32767;
             this.password.Name = "password";
@@ -105,7 +105,7 @@
             this.bunifuButton1.AnimationSpeed = 200;
             this.bunifuButton1.AutoGenerateColors = false;
             this.bunifuButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton1.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(73)))), ((int)(((byte)(171)))));
             this.bunifuButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.BackgroundImage")));
             this.bunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.ButtonText = "Đăng nhập";
@@ -132,7 +132,7 @@
             this.bunifuButton1.IdleBorderColor = System.Drawing.Color.DodgerBlue;
             this.bunifuButton1.IdleBorderRadius = 3;
             this.bunifuButton1.IdleBorderThickness = 1;
-            this.bunifuButton1.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(73)))), ((int)(((byte)(171)))));
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
